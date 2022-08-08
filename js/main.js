@@ -16,7 +16,7 @@ setTimeout(() => {
     modal.innerHTML = 'Hello, world!';
     termModal.appendChild(modal);
     document.body.appendChild(termModal);
-}, 5000);
+}, 3000);
 
 document.addEventListener('keyup', (e) => {
     if (e.key === '`') {
