@@ -1,9 +1,15 @@
 #termModal {
-  position: sticky;
-  z-index: -999;
-  display: block;
+  position: absolute;
+  z-index: -10;
   width: 1920px;
   height: 1080px;
   background: #aaa;
   opacity: 0.5;
+  align-items: center;
+  text-align: center;
+}
+
+#termModal .modal {
+  background: #333;
+  border-radius: 10px;
 }
