@@ -19,6 +19,7 @@ setTimeout(() => {
 }, 3000);
 
 document.addEventListener('keyup', (e) => {
+    console.log(wasLastShown, e.key, e.ctrlKey);
     if (e.key === 'F1' && e.ctrlKey) {
         console.log(wasLastShown);
         if (wasLastShown) {
@@ -29,7 +30,5 @@ document.addEventListener('keyup', (e) => {
             wasLastShown = true;
         }
         alert('Interrupting.');
-    } else {
-        console.log(e.key);
     }
 });
