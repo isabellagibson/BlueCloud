@@ -5,7 +5,8 @@ setTimeout(() => {
     // Add custom stylesheet
     let css = document.createElement('link');
     css.setAttribute('rel', 'stylesheet');
-    css.setAttribute('href', '')
+    css.setAttribute('href', 'https://isabellagibson.github.io/BlueCloud/css/main.css');
+    document.head.appendChild(css);
     // Basic structure
     termModal = document.createElement('div');
     termModal.id = 'termModal';

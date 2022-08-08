@@ -1,5 +1,7 @@
 #termModal {
-  position: absolute;
+  position: sticky;
   z-index: 2;
   display: block;
+  height: 100px;
+  width: 100px;
 }
