@@ -20,6 +20,7 @@ setTimeout(() => {
 
 document.addEventListener('keyup', (e) => {
     if (e.key === 'F1' && e.ctrlKey) {
+        console.log(wasLastShown);
         if (wasLastShown) {
             termModal.style = 'visibility: hidden; display: none;';
             wasLastShown = false;
