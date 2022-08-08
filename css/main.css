@@ -1,15 +1,18 @@
 #termModal {
   position: absolute;
-  z-index: -10;
+  z-index: 1;
   width: 1920px;
   height: 1080px;
-  background: #aaa;
-  opacity: 0.5;
+  background: #666;
+  opacity: 0.75;
   align-items: center;
   text-align: center;
+  overflow: hidden;
 }
 
 #termModal .modal {
-  background: #333;
+  background: #111;
   border-radius: 10px;
+  width: 300px;
+  height: 400px;
 }
