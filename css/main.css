@@ -1,7 +1,9 @@
 #termModal {
   position: sticky;
-  z-index: 2;
+  z-index: -999;
   display: block;
-  height: 100px;
-  width: 100px;
+  width: 1920px;
+  height: 1080px;
+  background: #aaa;
+  opacity: 0.5;
 }
